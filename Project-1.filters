@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{a1000001-0000-0000-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\core">
+      <UniqueIdentifier>{a1000002-0000-0000-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\gui">
+      <UniqueIdentifier>{a1000003-0000-0000-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\visuals">
+      <UniqueIdentifier>{a1000004-0000-0000-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\valve_sdk">
+      <UniqueIdentifier>{a1000005-0000-0000-0000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\valve_sdk\common">
+      <UniqueIdentifier>{a1000006-0000-0000-0000-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\valve_sdk\engine">
+      <UniqueIdentifier>{a1000007-0000-0000-0000-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\valve_sdk\steam">
+      <UniqueIdentifier>{a1000008-0000-0000-0000-000000000008}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="source\pch.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\hook_manager.h">
+      <Filter>source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\hooks.h">
+      <Filter>source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\offsets.h">
+      <Filter>source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\unload.h">
+      <Filter>source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\gui.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\gui_input.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\gui_render.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\visuals\esp.h">
+      <Filter>source\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\sdk.h">
+      <Filter>source\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\Sequence.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\archtypes.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\beamdef.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\cdll_dll.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\cl_entity.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\com_model.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\con_nprint.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\const.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\crc.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\cvardef.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\demo_api.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\director_cmds.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\dlight.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\dll_state.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\entity_state.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\entity_types.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\enums.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\event_api.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\event_args.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\event_flags.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\hltv.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\in_buttons.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\interface.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\ivoicetweak.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\mathlib.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\net_api.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\netadr.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\nowin.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\parsemsg.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\particledef.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\pm_info.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\pmtrace.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\port.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\qfont.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\r_efx.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\r_studioint.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\ref_params.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\screenfade.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\studio_event.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\triangleapi.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\usercmd.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\weaponinfo.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\winsani_in.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\winsani_out.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\common\wrect.h">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\APIProxy.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\anorms.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\cdll_int.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\custom.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\customentity.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\edict.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\eiface.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\progdefs.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\progs.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\shake.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\engine\studio.h">
+      <Filter>source\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\valve_sdk\steam\steamtypes.h">
+      <Filter>source\valve_sdk\steam</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="source\pch.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\hooks.cpp">
+      <Filter>source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\offsets.cpp">
+      <Filter>source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\unload.cpp">
+      <Filter>source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\gui.cpp">
+      <Filter>source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\visuals\esp.cpp">
+      <Filter>source\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="source\valve_sdk\common\interface.cpp">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\valve_sdk\common\parsemsg.cpp">
+      <Filter>source\valve_sdk\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
